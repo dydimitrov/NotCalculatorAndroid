@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Please insert the sum of Deal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d6d6c2"
+        android:id="@+id/inputText" />
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button" />
+    <TextView
+        android:text="Here will be displayed the result"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#d6d6c2"
+        android:textColor="#000000"
+        android:id="@+id/resultText" />
+    <TextView
+        android:text="Калкулаторът изчислява нотариалната такса при покупка на недвижим имот, общинския данък за придобиване на имущество по възмезден начин и таксата за вписване на имота."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addInfo" />
+</LinearLayout>
